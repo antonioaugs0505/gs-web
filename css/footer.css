@@ -1,0 +1,16 @@
+footer{
+    background-color: var(--cor-dois);
+    color: var(--cor-um);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+footer h3{
+    font-weight: 300;
+}
+
