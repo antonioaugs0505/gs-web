@@ -104,3 +104,17 @@
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@media screen and (max-width:1030px){
+
+    .card{
+    width: 350px;
+    height: 470px;
+    margin-bottom: 80px;
+    }
+    
+    }
+    
+    
+    
+    
