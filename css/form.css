@@ -107,6 +107,39 @@ body{
     color: var(--cor-dois);
 }
 
+select{
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--cor-dois);
+    background-color: var(--cor-um);
+    color: var(--cor-dois);
+}
+
+
+.input-form-campo select:focus-visible{
+    outline: 1px solid var(--cor-um) ;
+}
+
+.btn button{
+    padding: .8rem 1.2rem;
+    border: none;
+    border-radius: 30px;
+    border: 2px solid var(--cor-dois);
+    background-color: var(--cor-um);
+    color: var(--cor-dois);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    border: 2px solid var(--cor-um);
+    background-color: var(--cor-dois);
+    color: var(--cor-um);
+}
+
+
 @media screen and (max-width:1030px) {
     .img-form{
         display: none;
