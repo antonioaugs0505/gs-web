@@ -25,10 +25,9 @@
     align-items: center;
 }
 
-body{
-    background: rgb(206,235,226);
-    background: linear-gradient(rgba(206,235,226,1) 0%, rgba(27,156,133,1) 100%);
-}
+
+    
+
 
 .container-form{
     width: 100%;
@@ -38,6 +37,8 @@ body{
     align-items: center;
     border-top: 5px solid var(--cor-um);
     border-bottom: 5px solid var(--cor-um);
+    background: rgb(206,235,226);
+    background: linear-gradient( rgba(206,235,226,1) 0%, rgba(27,156,133,1) 100%);
 }
 .img-form{
     width: 40%;
@@ -76,6 +77,8 @@ body{
     justify-content: space-around;
     padding: 10px 0;
     border: none;
+    font-size: 2rem;
+    color: var(--cor-dois);
 }
 
 .input-form-campo{
