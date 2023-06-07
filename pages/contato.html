@@ -11,6 +11,9 @@
 </head>
 
 <body>
+
+    <script src="../js/menu.js" defer></script>
+
     <header>
         <nav class="menu">
             <div class="logo">
@@ -29,7 +32,7 @@
 
             <div class="mobile-menu-icon">
                 <button id="btn">
-                    <img class="icon" src="./img/logo-menu/menu-aberto.png" alt="menu" />
+                    <img class="icon" src="../img/logo-menu/menu-aberto.png" alt="menu" />
                 </button>
             </div>
         </nav>
@@ -107,10 +110,13 @@
                     </div>
 
                     <div class="input-form-campo">
-                        <label id="genero" for="genero">Gênero</label>
-                        <select id="genero" name="genero" required>
-                            <option value="homem">Masculino</option>
-                            <option value="mulher">Feminino</option>
+                        <label for="genero">Genero</label>
+                        <select name="genero" id="genero">
+                            <option class="select-item" selected disabled value="0">
+                                Escolha seu genero
+                            </option>
+                            <option value="homem">Homem</option>
+                            <option value="mulher">Mulher</option>
                             <option value="outro">Outro</option>
                             <option value="nao">Prefiro não dizer</option>
                         </select>
