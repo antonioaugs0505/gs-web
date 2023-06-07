@@ -69,8 +69,6 @@ align-items: center;
    }
 .show-conteudo .text{
     width: 50%;
-    color: var(--preto);
-
 }
 .show-conteudo .text h2{
 font-size: 2rem;
@@ -83,7 +81,7 @@ padding-bottom: 5px;
     font-size: 1rem;
     text-transform: capitalize;
 }
-.tp1 .tex{
+.tp1 .text{
     color: var(--cor-dois);
     text-align: right;
 }
