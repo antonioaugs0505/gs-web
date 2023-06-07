@@ -90,5 +90,62 @@ padding-bottom: 5px;
     color: var(--cor-um);
 }
 
+@media screen and (max-width:1030px){
+    .show-conteudo{
+        flex-direction: column;
+        margin: auto 0;
+    
+    }
+
+    .show-conteudo img{
+        position: relative;
+    }
+
+    .show-conteudo .text{
+        width: 100%;
+        text-align: center;
+    }
+
+    figure{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: 20px 5px;
+    }
+
+ }
+
+@media screen and (max-width:600px) {
+
+
+    .show h2{
+        font-size:1.2rem;
+        padding: 10px;
+    }
+
+    .show-conteudo figure{
+        margin: auto 0;
+        padding: 15px;
+    }
+
+    .show-conteudo img{
+        width: 280px;
+        height: 210px;
+        
+    } 
+
+    .show{
+        height: 600vh;
+    }
+
+    .tp1 img, .tp2 img{
+        box-shadow: none;
+    }
+}
+
+
+
+
+
 
 

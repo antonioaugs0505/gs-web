@@ -65,3 +65,50 @@ header{
 .icon{
     width: 28px;
 }
+
+@media screen and (max-width:1030px){
+
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 20px;
+        align-items: center;
+    }
+
+    .menu-lista{
+        display: none;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+
+    .mobile-menu-icon{
+        display: block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        padding-top: 10px;
+    }
+
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 16px;
+        border-top: 2px solid var(--cor-um);
+    }
+
+    .mobile-menu .menu-item{
+        display: block;
+        padding-top: 16px ;
+    }
+
+    .open{
+        display:block ;
+    }
+
+} 
